@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="400" viewBox="0 0 820 400" role="img" aria-label="Terminal window introducing Roj Carranza, Software Engineer">
+  <style>
+    text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; }
+    .p { fill: #22c55e; }
+    .c { fill: #e6edf3; }
+    .k { fill: #79c0ff; }
+    .v { fill: #ffa657; }
+    .s { fill: #a5d6ff; }
+    .d { fill: #8b949e; }
+    .ln { opacity: 0; animation: show 0.01s forwards; }
+    .cursor { animation: blink 1s steps(1) infinite; fill: #22c55e; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="2" y="2" width="816" height="396" rx="12" fill="#0d1117" stroke="url(#glow)" stroke-width="2"/>
+  <path d="M2 14 a12 12 0 0 1 12 -12 h792 a12 12 0 0 1 12 12 v34 h-816 z" fill="#161b22"/>
+  <circle cx="26" cy="26" r="7" fill="#ff5f56"/>
+  <circle cx="50" cy="26" r="7" fill="#ffbd2e"/>
+  <circle cx="74" cy="26" r="7" fill="#27c93f"/>
+  <text x="410" y="31" text-anchor="middle" class="d" style="font-size:13px">roj@dev: ~</text>
+
+  <!-- lines -->
+  <g>
+    <text class="ln" style="animation-delay:0.3s" x="28" y="86"><tspan class="p">roj@dev:~$</tspan> <tspan class="c">whoami</tspan></text>
+    <text class="ln" style="animation-delay:0.9s" x="28" y="110"><tspan class="s">Roj Carranza, Software Engineer</tspan></text>
+
+    <text class="ln" style="animation-delay:1.5s" x="28" y="146"><tspan class="p">roj@dev:~$</tspan> <tspan class="c">cat about.yml</tspan></text>
+    <text class="ln" style="animation-delay:2.1s" x="28" y="170"><tspan class="k">role:</tspan> <tspan class="v">Software Engineer</tspan></text>
+    <text class="ln" style="animation-delay:2.3s" x="28" y="194"><tspan class="k">domains:</tspan> <tspan class="s">[full-stack, front-end, back-end, devops, data]</tspan></text>
+    <text class="ln" style="animation-delay:2.5s" x="28" y="218"><tspan class="k">based_in:</tspan> <tspan class="v">Netherlands</tspan></text>
+
+    <text class="ln" style="animation-delay:3.1s" x="28" y="254"><tspan class="p">roj@dev:~$</tspan> <tspan class="c">echo $MOTTO</tspan></text>
+    <text class="ln" style="animation-delay:3.7s" x="28" y="278"><tspan class="s">Automate the boring stuff. Ship the good stuff.</tspan></text>
+
+    <text class="ln" style="animation-delay:4.3s" x="28" y="314"><tspan class="p">roj@dev:~$</tspan> <tspan class="c">./collaborate.sh</tspan></text>
+    <text class="ln" style="animation-delay:4.9s" x="28" y="338"><tspan class="p">&gt;</tspan> <tspan class="c">Let's collaborate and make a positive impact together!</tspan></text>
+    <text class="ln" style="animation-delay:5.2s" x="28" y="362"><tspan class="p">&gt;</tspan> <tspan class="d">status: open to ideas, open source, and good conversations</tspan></text>
+    <rect class="cursor ln" style="animation-delay:5.4s" x="28" y="372" width="9" height="3"/>
+  </g>
+</svg>
